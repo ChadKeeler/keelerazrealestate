@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chad Keeler Real Estate - Phoenix, AZ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Chad Keeler Real Estate</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-blue-300">Home</a></li>
+                    <li><a href="#about" class="hover:text-blue-300">About</a></li>
+                    <li><a href="#listings" class="hover:text-blue-300">Listings</a></li>
+                    <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-cover bg-center h-96" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')">
+        <div class="container mx-auto px-4 h-full flex items-center">
+            <div class="text-white bg-blue-900 bg-opacity-75 p-6 rounded-lg">
+                <h2 class="text-4xl font-bold mb-4">Find Your Dream Home in Phoenix, AZ</h2>
+                <p class="text-lg mb-6">Chad Keeler Real Estate - Your trusted partner in the Valley of the Sun</p>
+                <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">About Chad Keeler Real Estate</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-6 md:mb-0">
+                    <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Phoenix Real Estate" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2 md:pl-8">
+                    <p class="text-lg mb-4">At Chad Keeler Real Estate, we are dedicated to helping you find the perfect home in Phoenix, Arizona. With years of experience and a deep understanding of the local market, Chad Keeler and his team provide personalized service to meet your unique needs.</p>
+                    <p class="text-lg">Whether you're buying your first home, selling a property, or investing in real estate, we are here to guide you every step of the way. Trust us to make your real estate journey smooth and successful.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Listings Section -->
+    <section id="listings" class="bg-gray-200 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Featured Listings</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Listing 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1600597339925-c3a6d53c0e3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Listing 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Modern Downtown Condo</h3>
+                        <p class="text-gray-600 mb-4">$450,000 | 2 Bed | 2 Bath</p>
+                        <a href="#contact" class="text-blue-600 hover:underline">View Details</a>
+                    </div>
+                </div>
+                <!-- Listing 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Listing 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Suburban Family Home</h3>
+                        <p class="text-gray-600 mb-4">$650,000 | 4 Bed | 3 Bath</p>
+                        <a href="#contact" class="text-blue-600 hover:underline">View Details</a>
+                    </div>
+                </div>
+                <!-- Listing 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1600566752355-35792a6b3df0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Listing 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Luxury Desert Villa</h3>
+                        <p class="text-gray-600 mb-4">$1,200,000 | 5 Bed | 4 Bath</p>
+                        <a href="#contact" class="text-blue-600 hover:underline">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+            <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div>
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your Name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your Email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+                        <textarea id="message" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button onclick="alert('Thank you for your message! We will get back to you soon.')" class="w-full bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Chad Keeler Real Estate. All rights reserved.</p>
+            <p class="mt-2">Phoenix, AZ | Phone: (602) 123-4567 | Email: info@chadkeelerrealestate.com</p>
+        </div>
+    </footer>
+</body>
+</html>
